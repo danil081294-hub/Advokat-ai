@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Локальный ИИ для адвоката — пилот</title>
+<meta name="description" content="Локальная система анализа материалов уголовного дела. Документы остаются в вашем офисе. Пилот на 7 дней.">
+<style>
+:root{--bg:#0b0d12;--card:#121620;--line:#242b3a;--text:#f4f6fb;--muted:#aeb7c8;--accent:#d7ff5f;--accent2:#9fbf43}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif;line-height:1.5}
+.wrap{max-width:1080px;margin:auto;padding:0 24px}.nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0}.brand{font-weight:800;letter-spacing:-.02em}.pill{font-size:13px;color:var(--muted);border:1px solid var(--line);padding:7px 11px;border-radius:999px}
+.hero{padding:70px 0 54px;display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}.eyebrow{color:var(--accent);font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.08em}
+h1{font-size:58px;line-height:1.02;letter-spacing:-.045em;margin:14px 0 22px}.lead{font-size:21px;color:var(--muted);max-width:720px}
+.cta{display:inline-block;margin-top:28px;background:var(--accent);color:#111;font-weight:800;text-decoration:none;padding:16px 22px;border-radius:12px}.sub{font-size:13px;color:var(--muted);margin-top:12px}
+.device{background:linear-gradient(145deg,#171c27,#0e1118);border:1px solid var(--line);border-radius:24px;padding:26px;box-shadow:0 25px 80px #0008}.screen{background:#080a0f;border:1px solid #30384a;border-radius:15px;padding:20px;font-size:14px}.q{color:#dce3ef;margin-bottom:18px}.a{color:#b9c5d8}.ref{color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:34px 0 80px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}.card b{display:block;margin-bottom:8px}.card span{color:var(--muted);font-size:15px}
+section{padding:58px 0;border-top:1px solid var(--line)}h2{font-size:38px;letter-spacing:-.03em;margin:0 0 24px}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.n{color:var(--accent);font-weight:800;margin-bottom:8px}
+.price{display:flex;gap:36px;align-items:center;justify-content:space-between;background:var(--card);border:1px solid var(--line);padding:30px;border-radius:18px}.price strong{font-size:42px}.price small{display:block;color:var(--muted)}
+.form{max-width:680px}.form input,.form select,.form textarea{width:100%;background:#0d1118;color:var(--text);border:1px solid var(--line);border-radius:10px;padding:14px;margin:6px 0 12px;font:inherit}.form button{border:0;background:var(--accent);padding:15px 20px;border-radius:10px;font-weight:800;font-size:16px;cursor:pointer}.fine{font-size:12px;color:var(--muted);margin-top:12px}
+footer{padding:35px 0 55px;color:var(--muted);font-size:13px}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:38px}h1{font-size:42px}.grid,.steps{grid-template-columns:1fr}.price{display:block}.price .cta{margin-top:18px}}
+</style>
+</head>
+<body><div class="wrap">
+<div class="nav"><div class="brand">АДВОКАТ AI · PILOT</div><div class="pill">Локально · без облака</div></div>
+<div class="hero">
+<div><div class="eyebrow">Пилот для адвокатов по уголовным делам</div>
+<h1>Передайте ИИ 20 томов дела.<br>Не передавая дело в интернет.</h1>
+<div class="lead">Локальная система устанавливается физически в вашем офисе. Анализирует PDF, Word и сканы материалов дела, помогает находить факты, показания, доказательства и противоречия. Исходные документы остаются на устройстве у вас.</div>
+<a class="cta" href="#pilot">Записаться на пилот</a><div class="sub">7 дней · 19 900 ₽ · сейчас формируем первую пилотную группу</div></div>
+<div class="device"><div class="screen"><div class="q"><b>Запрос адвоката</b><br>Найди противоречия в показаниях Иванова о времени передачи банковской карты.</div>
+<div class="a"><b>Найдено потенциальное противоречие</b><br><br>В допросе от 12.03 Иванов указывает передачу карты «после 18:00». <span class="ref">[Том 3, л.д. 117–119]</span><br><br>В допросе от 28.04 он указывает, что карта находилась у него до следующего утра. <span class="ref">[Том 7, л.д. 43–46]</span><br><br>Система показывает источники для проверки адвокатом.</div></div></div>
+</div>
+<div class="grid">
+<div class="card"><b>Хронология дела</b><span>Собирает события из разных томов в единую временную последовательность с источниками.</span></div>
+<div class="card"><b>Показания и противоречия</b><span>Сопоставляет допросы одного и нескольких лиц и показывает расхождения для проверки.</span></div>
+<div class="card"><b>Доказательства</b><span>Находит документы и сведения по заданному эпизоду, лицу или обстоятельству.</span></div>
+<div class="card"><b>Поиск по тысячам страниц</b><span>Задаёте вопрос обычным языком вместо ручного перелистывания томов.</span></div>
+<div class="card"><b>Ссылки на источник</b><span>Ответ должен вести обратно к документу и странице, чтобы результат можно было перепроверить.</span></div>
+<div class="card"><b>Материалы остаются локально</b><span>Рабочий сценарий рассчитан на обработку материалов на физическом устройстве в офисе, без отправки дела в публичный ИИ-чат.</span></div>
+</div>
+<section><h2>Как проходит пилот</h2><div class="steps">
+<div class="card"><div class="n">01</div><b>Устройство в офисе</b><span>Локальная AI-станция устанавливается у вас на срок пилота.</span></div>
+<div class="card"><div class="n">02</div><b>Загружаете дело</b><span>PDF, DOCX и поддерживаемые сканы загружаются локально.</span></div>
+<div class="card"><div class="n">03</div><b>Проверяете на реальной работе</b><span>Используете собственные вопросы и задачи по материалам дела.</span></div>
+<div class="card"><div class="n">04</div><b>Решаете по факту</b><span>Через 7 дней оцениваете, даёт ли система практическую экономию времени.</span></div>
+</div></section>
+<section><h2>Пилот — не презентация</h2><div class="price"><div><strong>19 900 ₽</strong><small>7 дней тестирования на ваших материалах. Участие и условия пилота подтверждаются до оплаты.</small></div><a class="cta" href="#pilot">Оставить заявку</a></div></section>
+<section id="pilot"><h2>Записаться в первую пилотную группу</h2>
+<div class="form"><form id="leadForm">
+<input name="name" placeholder="Имя" required>
+<input name="contact" placeholder="Телефон или Telegram" required>
+<select name="practice" required><option value="">Основная практика</option><option>Уголовные дела</option><option>Гражданские дела</option><option>Арбитраж</option><option>Другое</option></select>
+<select name="volume"><option value="">Примерный объём дела</option><option>До 1 000 страниц</option><option>1 000–5 000 страниц</option><option>5 000–20 000 страниц</option><option>Более 20 000 страниц</option></select>
+<textarea name="task" rows="4" placeholder="Что в большом деле отнимает у вас больше всего времени?"></textarea>
+<button type="submit">Отправить заявку</button>
+<div id="status" class="fine">Оставление заявки не обязывает к оплате. Это исследовательский пилот продукта.</div>
+</form></div></section>
+<footer>Система является вспомогательным аналитическим инструментом. Выводы ИИ требуют проверки специалистом по исходным материалам. Не является юридической консультацией.</footer>
+</div>
+<script>
+const params=new URLSearchParams(location.search);
+const source=params.get('utm_source')||'direct',campaign=params.get('utm_campaign')||'',variant=params.get('variant')||'';
+document.getElementById('leadForm').addEventListener('submit',e=>{
+ e.preventDefault();
+ const f=new FormData(e.target); const data=Object.fromEntries(f.entries());
+ data.source=source;data.campaign=campaign;data.variant=variant;data.time=new Date().toISOString();
+ const subject=encodeURIComponent('Заявка на пилот Адвокат AI');
+ const body=encodeURIComponent(Object.entries(data).map(([k,v])=>k+': '+v).join('\n'));
+ document.getElementById('status').textContent='Откроется отправка заявки. Если почтовое приложение не настроено — сохраните контакт и свяжитесь с нами после запуска пилота.';
+ location.href='mailto:pilot.advokat.ai@gmail.com?subject='+subject+'&body='+body;
+});
+</script></body></html>
